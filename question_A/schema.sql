@@ -1,8 +1,8 @@
+-- change phaseA_db to your data base
+DROP DATABASE phaseA_db
+CREATE DATABASE phaseA_db
+USE phaseA_db
 /* Create basic Enumerations */
-DROP DATABASE finalDB
-CREATE DATABASE finalDB
-USE finalDB
-
 CREATE TABLE DEGREE_VALUES(
 	NAME NVARCHAR(50) COLLATE SQL_Latin1_General_CP1253_CI_AI)
 
