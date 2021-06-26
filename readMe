@@ -1,0 +1,14 @@
+# conect to sql server
+./sqlcmd -S localhost -U SA -P Thanasis24!
+
+
+/opt/mssql-tools/bin
+
+
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P Thanasis24!
+
+SELECT Name from sys.Databases
+
+
+/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P Thanasis24! -i /home/t/CGSOFT/schema.sql
+SELECT * FROM dbo.SORT_CUSTOMERS(N'ΠΕΜΠΤΗ' , 11);
