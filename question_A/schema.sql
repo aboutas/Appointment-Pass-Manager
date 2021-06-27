@@ -68,7 +68,6 @@ CREATE TABLE CUSTOMERS(
 )
 
 GO
-
 --Help function for sorting Days
 CREATE FUNCTION DAYS_TO_NUMBERS (
     @day NVARCHAR(20)
@@ -122,4 +121,4 @@ AS RETURN(
 		c.AGE,  
 		c.GRADE)
 GO
---SELECT * FROM dbo.SORT_CUSTOMERS(N'ΠΕΜΠΤΗ' , 11);
+
